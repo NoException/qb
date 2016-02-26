@@ -19,7 +19,7 @@ ITEM_PIPELINES = ['qb.pipelines.MongoDBPipeline', ]
 MONGODB_SERVER = "localhost" 
 MONGODB_PORT = 27017 
 MONGODB_DB = "qb" 
-MONGODB_COLLECTION = "text4"
+MONGODB_COLLECTION = "text5"
 DOWNLOAD_DELAY = 5
 
 

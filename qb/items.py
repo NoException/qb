@@ -10,8 +10,16 @@ from scrapy.item import Field
 
 
 class QbItem(scrapy.Item):
+    _id = Field()
     author = Field()
     content = Field()
+#     url = Field()
+    comments = Field(serializer=str)
+    
+class CommentItem(scrapy.Item):
+    _id = Field()
+    commentuser = Field()
+    comment = Field()
     
     
     
